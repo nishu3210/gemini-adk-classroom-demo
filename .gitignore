@@ -1,0 +1,21 @@
+# ⚠️ Secrets — NEVER commit these
+# Your Gemini API key lives in .env files. They are ignored on purpose.
+.env
+
+# ---- Python / virtualenv ----
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+*.log
+
+# ---- ADK runtime state (sessions, artifacts, eval runs) ----
+.adk/
+
+# ---- macOS ----
+.DS_Store
+
+# ---- Editor / IDE (machine-specific) ----
+.vscode/
+.idea/
